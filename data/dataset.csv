@@ -1,0 +1,60 @@
+{
+    "descriptor": {
+        "expiry": "1-11-2024",
+        "uuid": "zzza79876-66ea-7cd4-9bac-3b35v6kbabff012345678901234567891000.95603427188924940.95603427188924940.9560342718892494",
+        "obj-class": "IoT",
+        "format": {
+            "type": "json"
+        },
+        "access": "croatia-pilot",
+        "dataset-type": "image-sensory",
+        "created": "1681890124.745728"
+    },
+    "lineage": {
+        "source": [],
+        "processing": "primitive"
+    },
+    "spatial": {
+        "type": "Polygon",
+        "coordinates": [
+            {
+                "lon": "14.236920",
+                "lat": "45.471601"
+            },
+            {
+                "lon": "14.236920",
+                "lat": "45.470769"
+            },
+            {
+                "lon": "14.239766",
+                "lat": "45.470769"
+            },
+            {
+                "lon": "14.239766",
+                "lat": "45.471601"
+            },
+            {
+                "lon": "14.236920",
+                "lat": "45.471601"
+            }
+        ],
+        "wkt": "POLYGON ((14.236920 45.471601, 14.236920 45.470769, 14.239766 45.470769, 14.239766 45.471601))",
+        "pilot": "test",
+        "properties": {
+            "region": "HRT",
+            "direction": "265"
+        }
+    },
+    "temporal": {
+        "datetime": "1681890130.228883"
+    },
+    "tag": {
+        "device": "Raspberry Pi",
+        "sensors": [
+            "humidity",
+            "temperature",
+            "camera"
+        ],
+        "fire_related": false
+    }
+}
